@@ -3,23 +3,21 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing.Text;
 
 namespace Flight_Reservation_System
 {
-    public partial class Dashboard : Form
+    public partial class View_Bookings : Form
     {
-        public Dashboard()
+        public View_Bookings()
         {
-            InitializeComponent();      
+            InitializeComponent();
         }
 
-        //idk what does this do copied from stackoverflow
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
         public static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont,
             IntPtr pdv, [System.Runtime.InteropServices.In] ref uint pcFonts);
@@ -39,7 +37,7 @@ namespace Flight_Reservation_System
 
         public void setHeader()
         {
-            lblPageName.Text = "Dashboard".ToUpper();
+            lblPageName.Text = "View Bookings".ToUpper();
             lblPageName.Font = KantumruyBold(); //set font from the copied code :>
             lblPageName.ForeColor = ColorTranslator.FromHtml("#5C5C5C");
             setIndicator();
@@ -47,9 +45,9 @@ namespace Flight_Reservation_System
         }
         public void setIndicator()
         {
-  
+
             pnlIndicator.BackColor = ColorTranslator.FromHtml("#A780F4");
-            btnDashboard.BackColor = ColorTranslator.FromHtml("#F4F3FF");
+            btnViewBookings.BackColor = ColorTranslator.FromHtml("#F4F3FF");
         }
 
         public void setButtonBorders()
@@ -64,7 +62,9 @@ namespace Flight_Reservation_System
                 btn.BackColor = Color.White;
             }
         }
-        private void Dashboard_Load(object sender, EventArgs e)
+
+
+        private void Manage_Booking_Load(object sender, EventArgs e)
         {
             String formColor = "#E6E9F0";
             this.BackColor = ColorTranslator.FromHtml(formColor);
@@ -72,9 +72,10 @@ namespace Flight_Reservation_System
             setButtonBorders();
             setHeader();
             InitializeSidebar();
+
         }
 
-        private void lblPageName_Click(object sender, EventArgs e)
+        private void pnlIndicator_Paint(object sender, PaintEventArgs e)
         {
 
         }
@@ -108,7 +109,7 @@ namespace Flight_Reservation_System
                 this.Hide();
                 Profile profile = new Profile();
                 profile.Show();
-                profile.FormClosed += (s,args) => Application.Exit();
+                profile.FormClosed += (s, args) => Application.Exit();
             };
         }
     }

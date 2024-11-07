@@ -41,8 +41,8 @@ namespace Flight_Reservation_System
             this.pnlIndicator = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Header = new System.Windows.Forms.Panel();
-            this.btnLogout = new System.Windows.Forms.Button();
             this.lblPageName = new System.Windows.Forms.Label();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.Indicator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Header.SuspendLayout();
@@ -81,7 +81,7 @@ namespace Flight_Reservation_System
             this.btnFlightBooking.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFlightBooking.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFlightBooking.UseVisualStyleBackColor = true;
-            this.btnFlightBooking.Click += new System.EventHandler(this.btnFlightBooking_Click);
+            
             // 
             // btnDashboard
             // 
@@ -94,7 +94,7 @@ namespace Flight_Reservation_System
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnDashboard.UseVisualStyleBackColor = true;
-            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+           
             // 
             // btnProfile
             // 
@@ -108,6 +108,7 @@ namespace Flight_Reservation_System
             this.btnProfile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProfile.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProfile.UseVisualStyleBackColor = true;
+            
             // 
             // Indicator
             // 
@@ -136,7 +137,6 @@ namespace Flight_Reservation_System
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.UseWaitCursor = true;
             // 
             // Header
             // 
@@ -148,17 +148,6 @@ namespace Flight_Reservation_System
             this.Header.Size = new System.Drawing.Size(1302, 147);
             this.Header.TabIndex = 8;
             // 
-            // btnLogout
-            // 
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
-            this.btnLogout.Location = new System.Drawing.Point(1055, 46);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(207, 54);
-            this.btnLogout.TabIndex = 8;
-            this.btnLogout.Text = " ";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            // 
             // lblPageName
             // 
             this.lblPageName.Location = new System.Drawing.Point(366, 4);
@@ -168,6 +157,17 @@ namespace Flight_Reservation_System
             this.lblPageName.Text = "label1";
             this.lblPageName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblPageName.Click += new System.EventHandler(this.lblPageName_Click);
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
+            this.btnLogout.Location = new System.Drawing.Point(1055, 44);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(207, 54);
+            this.btnLogout.TabIndex = 8;
+            this.btnLogout.Text = " ";
+            this.btnLogout.UseVisualStyleBackColor = true;
             // 
             // Dashboard
             // 
@@ -184,7 +184,8 @@ namespace Flight_Reservation_System
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Dashboard";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.Indicator.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -8,3 +8,6 @@ C:\Users\user\Documents\2nd Year\OOP\PBL\Flight Reservation System\Flight-Reserv
 C:\Users\user\Documents\2nd Year\OOP\PBL\Flight Reservation System\Flight-Reservation-System\Flight Reservation System\Flight Reservation System\obj\Debug\Flight Reservation System.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\2nd Year\OOP\PBL\Flight Reservation System\Flight-Reservation-System\Flight Reservation System\Flight Reservation System\obj\Debug\Flight Reservation System.exe
 C:\Users\user\Documents\2nd Year\OOP\PBL\Flight Reservation System\Flight-Reservation-System\Flight Reservation System\Flight Reservation System\obj\Debug\Flight Reservation System.pdb
+C:\Users\user\Documents\2nd Year\OOP\PBL\Flight Reservation System\Flight-Reservation-System\Flight Reservation System\Flight Reservation System\obj\Debug\Flight_Reservation_System.Flight_Booking.resources
+C:\Users\user\Documents\2nd Year\OOP\PBL\Flight Reservation System\Flight-Reservation-System\Flight Reservation System\Flight Reservation System\obj\Debug\Flight_Reservation_System.View_Bookings.resources
+C:\Users\user\Documents\2nd Year\OOP\PBL\Flight Reservation System\Flight-Reservation-System\Flight Reservation System\Flight Reservation System\obj\Debug\Flight_Reservation_System.Profile.resources

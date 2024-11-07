@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\flight reservation system\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|c:\\users\\user\\documents\\2nd year\\oop\\pbl\\flight reservation system\\flight-reservation-system\\flight reservation system\\flight reservation system\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,32 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Flight Reservation System\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Dashboard.cs",
-              "RelativeToolTip": "Flight Reservation System\\Dashboard.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwB8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T04:27:15.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Flight Reservation System\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Flight Reservation System\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T04:27:14.213Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
