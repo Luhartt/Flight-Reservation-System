@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-KantumruyPro-Bold",
+      "appliesTo": "Flight Reservation System/Flight Reservation System/Resources/KantumruyPro-Bold.ttf",
+      "type": "launch"
+    }
+  ]
+}
