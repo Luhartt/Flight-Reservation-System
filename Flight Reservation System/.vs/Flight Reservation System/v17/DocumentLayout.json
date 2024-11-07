@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|c:\\users\\user\\documents\\2nd year\\oop\\pbl\\flight reservation system\\flight-reservation-system\\flight reservation system\\flight reservation system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Form1.cs",
+              "RelativeDocumentMoniker": "Flight Reservation System\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\2nd Year\\OOP\\PBL\\Flight Reservation System\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Form1.cs [Design]",
+              "RelativeToolTip": "Flight Reservation System\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:32:12.376Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
