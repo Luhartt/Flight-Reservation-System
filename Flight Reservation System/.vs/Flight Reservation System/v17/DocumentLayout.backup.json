@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|c:\\users\\stefanie\\source\\repos\\flight-reservation-system\\flight reservation system\\flight reservation system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\flight reservation system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,15 +11,19 @@
       "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|c:\\users\\stefanie\\source\\repos\\flight-reservation-system\\flight reservation system\\flight reservation system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\flight reservation system\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\flight reservation system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|c:\\users\\stefanie\\source\\repos\\flight-reservation-system\\flight reservation system\\flight reservation system\\flight_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\flight reservation system\\flight_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\flight_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|c:\\users\\stefanie\\source\\repos\\flight-reservation-system\\flight reservation system\\flight reservation system\\flight_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\flight reservation system\\flight_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E203846D-A4ED-4088-9A47-561BB44BD740}|Flight Reservation System\\Flight Reservation System.csproj|solutionrelative:flight reservation system\\flight_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,49 +34,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Flight_Booking.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Flight_Booking.cs",
-              "RelativeDocumentMoniker": "Flight Reservation System\\Flight_Booking.cs",
-              "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Flight_Booking.cs [Design]",
-              "RelativeToolTip": "Flight Reservation System\\Flight_Booking.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T06:35:33.327Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Program.cs",
-              "RelativeDocumentMoniker": "Flight Reservation System\\Program.cs",
-              "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Program.cs",
-              "RelativeToolTip": "Flight Reservation System\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Flight Reservation System\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Flight Reservation System\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T06:26:28.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\MainForm.cs",
-              "RelativeDocumentMoniker": "Flight Reservation System\\MainForm.cs",
-              "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\MainForm.cs",
-              "RelativeToolTip": "Flight Reservation System\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T06:14:38.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T07:29:04.825Z"
             },
             {
               "$type": "Document",
@@ -87,17 +69,56 @@
               "EditorCaption": " [Design]"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Flight_Booking.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Flight_Booking.cs",
+              "RelativeDocumentMoniker": "Flight Reservation System\\Flight_Booking.cs",
+              "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Flight_Booking.cs [Design]",
+              "RelativeToolTip": "Flight Reservation System\\Flight_Booking.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-09T06:35:33.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Program.cs",
+              "RelativeDocumentMoniker": "Flight Reservation System\\Program.cs",
+              "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Program.cs",
+              "RelativeToolTip": "Flight Reservation System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T06:26:28.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\MainForm.cs",
+              "RelativeDocumentMoniker": "Flight Reservation System\\MainForm.cs",
+              "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\MainForm.cs",
+              "RelativeToolTip": "Flight Reservation System\\MainForm.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAArwHoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T06:14:38.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Flight_Booking.cs",
               "DocumentMoniker": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Flight_Booking.cs",
               "RelativeDocumentMoniker": "Flight Reservation System\\Flight_Booking.cs",
               "ToolTip": "C:\\Users\\stefanie\\source\\repos\\Flight-Reservation-System\\Flight Reservation System\\Flight Reservation System\\Flight_Booking.cs",
               "RelativeToolTip": "Flight Reservation System\\Flight_Booking.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAArwCYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T06:35:35.023Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-09T06:35:35.023Z"
             }
           ]
         }
