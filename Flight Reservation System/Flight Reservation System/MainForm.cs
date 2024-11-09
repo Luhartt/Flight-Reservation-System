@@ -9,12 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
+using System.Runtime.Remoting.Channels;
 
 namespace Flight_Reservation_System
 {
-    public partial class Dashboard : Form
+    public partial class MainForm : Form
     {
-        public Dashboard()
+        public MainForm()
         {
             InitializeComponent();      
         }
@@ -37,24 +38,34 @@ namespace Flight_Reservation_System
             return new Font(privateFontCollection.Families[0], 30.0F);
         }
 
-        public void setHeader()
+        private void MainForm_Load(object sender, EventArgs e)
         {
-            lblPageName.Text = "Dashboard".ToUpper();
-            lblPageName.Font = KantumruyBold(); //set font from the copied code :>
-            lblPageName.ForeColor = ColorTranslator.FromHtml("#5C5C5C");
-            setIndicator();
-
+            String formColor = "#E6E9F0";
+            this.BackColor = ColorTranslator.FromHtml(formColor);
+            Header.BackColor = Color.White;
+            SetButtonBorders();
+            InitializeSidebar();
+            SetHeader("DASHBOARD");
+            SetIndicator(btnDashboard, pnlIndicator1);
         }
-        public void setIndicator()
+
+        public void SetIndicator(Button activeButton, Panel pnlIndicator)
         {
-  
+            ResetButtonColors();
             pnlIndicator.BackColor = ColorTranslator.FromHtml("#A780F4");
-            btnDashboard.BackColor = ColorTranslator.FromHtml("#F4F3FF");
+            activeButton.BackColor = ColorTranslator.FromHtml("#F4F3FF");
         }
 
-        public void setButtonBorders()
-        {
 
+        public void SetHeader(string PageName)
+        {
+            lblPageName.Text = PageName;
+            lblPageName.Font = KantumruyBold();
+            lblPageName.ForeColor = ColorTranslator.FromHtml("#5C5C5C");
+        }
+
+        public void SetButtonBorders()
+        {
             Button[] btns = { btnDashboard, btnFlightBooking, btnViewBookings, btnProfile, btnLogout };
 
             foreach (Button btn in btns)
@@ -63,52 +74,51 @@ namespace Flight_Reservation_System
                 btn.FlatAppearance.BorderSize = 0;
                 btn.BackColor = Color.White;
             }
-        }
-        private void Dashboard_Load(object sender, EventArgs e)
-        {
-            String formColor = "#E6E9F0";
-            this.BackColor = ColorTranslator.FromHtml(formColor);
-            Header.BackColor = Color.White;
-            setButtonBorders();
-            setHeader();
-            InitializeSidebar();
+
+            Panel[] panels = { pnlIndicator1, pnlIndicator2, pnlIndicator3, pnlIndicator4 };
+            foreach (Panel pnl in panels)
+            {
+                pnl.BackColor = Color.White;
+            }
         }
 
-        private void lblPageName_Click(object sender, EventArgs e)
+        public void ResetButtonColors()
         {
-
+            foreach (Control control in this.Controls)
+            {
+                switch (control)
+                {
+                    case Button btn:
+                        btn.BackColor = Color.White;
+                        break;
+                    case Panel pnl:
+                        pnl.BackColor = Color.White;
+                        break;
+                }
+            }
         }
 
         private void InitializeSidebar()
         {
             btnDashboard.Click += (sender, e) =>
             {
-                this.Hide();
-                Dashboard dashboard = new Dashboard();
-                dashboard.Show();
-                dashboard.FormClosed += (s, args) => Application.Exit();
+                SetIndicator(btnDashboard, pnlIndicator1);
+                SetHeader("DASHBOARD");
             };
-
             btnFlightBooking.Click += (sender, e) =>
             {
-                this.Hide();
-                Flight_Booking flight_booking = new Flight_Booking();
-                flight_booking.Show();
-                flight_booking.FormClosed += (s, args) => Application.Exit();
+                SetIndicator(btnFlightBooking, pnlIndicator2);
+                SetHeader("FLIGHT BOOKING");
             };
             btnViewBookings.Click += (sender, e) =>
             {
-                this.Hide();
-                View_Bookings view_bookings = new View_Bookings();
-                view_bookings.Show();
-                view_bookings.FormClosed += (s, args) => Application.Exit();
+                SetIndicator(btnViewBookings, pnlIndicator3);
+                SetHeader("VIEW BOOKINGS");
             };
             btnProfile.Click += (sender, e) =>
             {
-                this.Hide();
-                Profile profile = new Profile();
-                profile.Show();
-                profile.FormClosed += (s,args) => Application.Exit();
+                SetIndicator(btnProfile, pnlIndicator4);
+                SetHeader("PROFILE");
             };
         }
     }

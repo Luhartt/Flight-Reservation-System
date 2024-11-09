@@ -85,7 +85,7 @@ namespace Flight_Reservation_System
             btnDashboard.Click += (sender, e) =>
             {
                 this.Hide();
-                Dashboard dashboard = new Dashboard();
+                MainForm dashboard = new MainForm();
                 dashboard.Show();
                 dashboard.FormClosed += (s, args) => Application.Exit();
             };
